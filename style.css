@@ -3,21 +3,61 @@
     padding: 0;
     border: 0;
 }
-
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'Roboto', Arial, sans-serif;
 	margin: 0;
 	padding: 0;
-    background-color: #282932;
+    background-color: #5e5f5f;
     color: aliceblue
 }
 
 header {
-	background-color: antiquewhite;
-    
+	background-color: antiquewhite;    
     align-items: center;
-	height: 80px;
-	padding: 20px;
+	height: 50px;
+	padding: 10px;
+    font-size: 700;
 
 }
 
@@ -60,10 +100,12 @@ header {
     background-clip: text;
     display: flex;
     justify-content: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 #home p{
-    font-size: 1.6rem;
+    font-size: 1.2rem;
     display: flex;
     justify-content: center;
     text-align: justify;
@@ -72,24 +114,23 @@ header {
 
 #marco-zero{
     margin-left: 30%;
-    margin-right: 31%;
+    margin-right: 27%;
     padding: 20px;
   
     
 }
 
 #marco-zero h2{
-    font-size: 1.2rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     color: aliceblue;
 }
 
 #marco-zero img{
-    width: 35vmax;
+    width: 40vmax;
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -103,7 +144,7 @@ header {
 }
 
 #marco-zero figcaption{
-    font-size: var(--font-size-10);
+    font-size: 12px;
     line-height: var(--line-spacing-14);
     text-align: center;
     font-style: italic;
@@ -111,12 +152,12 @@ header {
 
 #pontos-turisticos{
     margin-left: 30%;
-    margin-right: 31%;
+    margin-right: 27%;
     padding: 20px;
 }
 
 #pontos-turisticos h2{
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     color: aliceblue;
     display: flex;
@@ -125,11 +166,10 @@ header {
 }
 
 #pontos-turisticos img{
-    width: 35vmax;
+    width: 40vmax;
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -145,12 +185,12 @@ header {
 
 #fotos{
     margin-left: 30%;
-    margin-right: 31%;
+    margin-right: 27%;
     padding: 20px;
 }
 
 #fotos h2{
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 10px;
     color: aliceblue;
     display: flex;
@@ -159,13 +199,12 @@ header {
 } 
 
 #fotos img{
-    width: 35vmax;
+    width: 40vmax;
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 0;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 #fotos p{
@@ -174,20 +213,21 @@ header {
     letter-spacing: var(--character-spacing-0);
     font-weight: var(--font-style-regular);
     margin-top: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+    padding-bottom: 15px;
+    display: flex;
+    justify-content: center;
 
 }
 
 #recife-antigo{
     margin-left: 30%;
-    margin-right: 31%;
+    margin-right: 27%;
     padding: 20px;
-  
-    
 }
 
 #recife-antigo h2{
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 20px;
     color: aliceblue;
     display: flex;
@@ -196,11 +236,10 @@ header {
 } 
 
 #recife-antigo img{
-    width: 35vmax;
+    width: 40vmax;
     height: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin-top: 10px;
     margin-bottom: 15px;
 }
@@ -228,7 +267,7 @@ footer{
 }
 footer ul{
     display: flex;
-    justify-content:space-evenly;
+    justify-content:center;
     list-style: none;
 
 }
@@ -236,9 +275,4 @@ footer ul{
 footer ul li{
     margin: 0 50px 0 50px;
     color: black;
-}
-
-footer a{
-    align-items: center;
-    
 }
